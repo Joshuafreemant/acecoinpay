@@ -25,7 +25,7 @@ function Homepage() {
             }}
             className='px-48 py-10'
         >
-            <div className='bg-white relative p-12 h-full grid grid-cols-5fr-2fr gap-12'>
+            <div className='bg-white relative p-12 h-full flex flex-col md:grid md:grid-cols-2 lg:grid-cols-5fr-2fr gap-12'>
 
                 {/* cancel button at the top right */}
                 <CancelButton />
