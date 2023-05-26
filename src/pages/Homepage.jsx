@@ -25,7 +25,7 @@ function Homepage() {
             }}
             className='px-48 py-10'
         >
-            <div className='bg-white relative p-12 h-full flex flex-col md:grid md:grid-cols-2 lg:grid-cols-5fr-2fr gap-12'>
+            <div className='bg-white relative py-10 px-12 h-full flex flex-col md:grid md:grid-cols-2 lg:grid-cols-5fr-2fr gap-12'>
 
                 {/* cancel button at the top right */}
                 <CancelButton />
@@ -170,22 +170,17 @@ function Homepage() {
                         <div style={{
                             background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.6), #fff)',
                             backdropFilter: 'blur(15px)',
-                            padding: '20px',
-                            borderRadius: '6px',
                             boxShadow: '0px 1px 14px 1px rgba(224, 224, 224, 0.6)',
-                            position: 'relative',
                             zIndex: 99,
                             left: '50%',
                             transform: 'translate(-50%, 0)',
-                            overflow: 'hidden',
                             marginTop: 10
 
                         }}
-                            className='w-8/12 h-[270px]'
+                            className='w-8/12 h-[270px] rounded-2xl overflow-hidden relative p-5'
                         >
 
                             <span style={{
-                                display: 'block',
                                 height: '20px',
                                 width: '12px',
                                 backgroundColor: '#035fff',
@@ -276,7 +271,7 @@ function Homepage() {
                                     <div className="bg-white w-6 h-6 rounded-full"></div>
                                 </div>
 
-                                <div className="flex items-center justify-between  mt-6">
+                                <div className="flex items-center justify-between  mt-10">
                                     <div className="">
                                         <p className="text-gray-600 text-[10px]">You have to Pay</p>
                                         <div className="flex ">
