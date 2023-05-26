@@ -31,7 +31,7 @@ function Homepage() {
                 <CancelButton />
 
                 {/* left hand side grid section */}
-                <section>
+                <section >
                     <div className='flex justify-between'>
                         <div className="flex items-center gap-2">
                             <span class="rounded-full  flex items-center justify-center p-1 bg-[#035fff]"><AiFillCreditCard className=' text-white' /></span>
@@ -53,7 +53,7 @@ function Homepage() {
                             <p className='mt-1 text-xs text-gray-600'>Enter the 16-digit card number on the card</p>
                         </div>
 
-                        <button className='flex items-center text-sm text-[#035fff] font-semibold'>
+                        <button className='gap-1 flex items-center text-sm text-[#035fff] font-semibold'>
                             <MdModeEdit />
                             Edit
                         </button>
@@ -241,7 +241,7 @@ function Homepage() {
                         <div className='bg-gray-100 h-full w-full px-12 py-4 rounded-2xl  absolute bottom-0 top-16'>
                             <div className='mt-52 px-1 flex flex-col gap-2'>
                                 <div className='flex items-center justify-between mt-2'>
-                                    <label htmlFor="company" className='text-gray-600 text-[10px]'>Company</label>
+                                    <label htmlFor="company" className='text-gray-600 text-[11px] font-medium'>Company</label>
                                     <div className='flex items-center gap-1'>
                                         <img src={apple} alt="apple-icon" className='w-3' />
                                         <h6 className='text-xs font-semibold'>Apple</h6>
@@ -249,19 +249,19 @@ function Homepage() {
                                 </div>
 
                                 <div className='flex items-center justify-between'>
-                                    <label htmlFor="company" className='text-gray-600 text-[10px]'>Order Number</label>
+                                    <label htmlFor="company" className='text-gray-600 text-[11px] font-medium'>Order Number</label>
 
                                     <h6 className='text-xs font-semibold'>1266201</h6>
                                 </div>
 
                                 <div className='flex items-center justify-between'>
-                                    <label htmlFor="company" className='text-gray-600 text-[10px]'>Product</label>
+                                    <label htmlFor="company" className='text-gray-600 text-[11px] font-medium'>Product</label>
 
                                     <h6 className='text-xs font-semibold'>MackBook Air</h6>
                                 </div>
 
                                 <div className='flex items-center justify-between'>
-                                    <label htmlFor="company" className='text-gray-600 text-[10px]'>VAT(20%)</label>
+                                    <label htmlFor="company" className='text-gray-600 text-[11px] font-medium'>VAT(20%)</label>
 
                                     <h6 className='text-xs font-semibold'>$100.00</h6>
                                 </div>
